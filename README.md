@@ -7,8 +7,8 @@ ScanImage can control two laser lines, however, spectral overlap of fluorophores
 * Add "OertnerLabSpecials" directory to Matlab search path.
 * Replace ScanImage function "calcStreamingBuffer" (part of ScanImage\\+scanimage\\+components\\Beams.m, around line 1180) with the code given in "Beams-calcStreamingBuffer_modified.m".
 * Start OertnerLabSpecials from Matlab command line.
-* Set Frames=2 in ScanImages "Main Controls" window (all other params as required).
-* Activate "Enable Power Box" in ScanImages "Power Controls" (it is not necessary to set a power box).
+* Set Frames=2 in ScanImage "Main Controls" window (all other params as required).
+* Activate "Enable Power Box" in ScanImage "Power Controls" (it is not necessary to set a power box).
 * Activate "Alternating Beam Scanning" in "OertnerLabSpecials". Set individual power values.
 * Run acquisition (alternating beam scanning is active in Grab and Loop mode).
 
